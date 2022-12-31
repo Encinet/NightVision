@@ -1,0 +1,11 @@
+name: NightVision
+version: '${project.version}'
+main: me.iamyuuk.nightvision.NightVision
+api-version: 1.19
+commands:
+  nightvision:
+    description: main command
+permissions:
+  nightvision.use:
+    description: main permission
+    default: op
